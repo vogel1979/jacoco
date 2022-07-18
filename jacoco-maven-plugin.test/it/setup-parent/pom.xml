@@ -41,8 +41,9 @@
           <artifactId>maven-compiler-plugin</artifactId>
           <version>2.3.2</version>
           <configuration>
-            <source>@maven.compiler.source@</source>
-            <target>@maven.compiler.target@</target>
+            <!-- FIXME -->
+            <source>8</source>
+            <target>8</target>
           </configuration>
         </plugin>
         <plugin>
